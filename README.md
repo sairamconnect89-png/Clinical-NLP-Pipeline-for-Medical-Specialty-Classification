@@ -7,8 +7,11 @@
 
 ## Run Locally
 pip install -r requirements.txt
+
 python -m nltk.downloader stopwords
+
 python src/train.py
+
 streamlit run app/app.py
 
 ## Run with Docker
